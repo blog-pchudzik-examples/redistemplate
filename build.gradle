@@ -20,11 +20,9 @@ repositories {
 
 dependencies {
     implementation 'redis.clients:jedis:2.10.0'
-    implementation 'org.apache.commons:commons-collections4:4.4'
     implementation 'org.apache.commons:commons-lang3:3.9'
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
-    implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.9.3'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.9.3'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
